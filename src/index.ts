@@ -28,6 +28,7 @@ app.get("/", (req: Request, res: Response) => {
 
 // Twilio webhook - returns TwiML for the call
 app.post("/voice", (req: Request, res: Response) => {
+    console.log("📞 Received voice webhook");
     const response = new twilio.twiml.VoiceResponse();
 
     // Say something first

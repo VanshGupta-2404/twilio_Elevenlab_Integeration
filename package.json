@@ -12,9 +12,13 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "alawmulaw": "^6.0.0",
+    "audio-resampler": "^1.0.1",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "twilio": "^5.11.2",
+    "wave-resampler": "^1.0.0",
+    "wavefile": "^11.0.0",
     "ws": "^8.19.0"
   },
   "devDependencies": {
